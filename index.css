@@ -1,0 +1,183 @@
+@font-face{
+    font-family: IndieFlower;
+    src: url(./IndieFlower-Regular.ttf);
+}
+
+html,
+body {
+    background-color: #ff9f80;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.title{
+    position: absolute;
+    top: 2.5%;
+    left: 3%;
+    font-family: "IndieFlower";
+    font-size: 9rem;
+    color: #ffe6e6;
+    max-width: 30%;
+}
+
+.wrapper__image{
+    box-shadow: 0px -1px 10px 2px rgba(34, 60, 80, 0.2) inset;
+    padding: 0.4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vh;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.image{
+    width: 100%;
+    padding: 1%;
+}
+.image__span{
+    text-align: center;
+    font-family: "IndieFlower";
+    font-size: 4rem;
+}
+
+.wrapper__image--big{
+    position: absolute;
+    z-index: 1;
+}
+.wrapper__image--medium{
+    position: absolute;
+    z-index: 99;
+    width: 39vh;
+}
+
+.wrapper__image--small{
+    position: absolute;
+    z-index: 999999;
+    width: 30vh;
+}
+.wrapper__image--countryside{
+    right: 0;
+    width: 70vh;
+}
+.wrapper__image--lake{
+    bottom: 5%;
+    left: 5%;
+    transform: rotate(-10grad);
+    -webkit-transform: rotate(-10grad);
+    -moz-transform: rotate(-10grad);
+    -ms-transform: rotate(-10grad);
+    -o-transform: rotate(-10grad);
+}
+.wrapper__image--city{
+    top: 5%;
+    transform: rotate(10grad);
+    -webkit-transform: rotate(10grad);
+    -moz-transform: rotate(10grad);
+    -ms-transform: rotate(10grad);
+    -o-transform: rotate(10grad);
+}
+.wrapper__image--track{
+    right: 3%;
+    top: 2%;
+    transform: rotate(9grad);
+    -webkit-transform: rotate(9grad);
+    -moz-transform: rotate(9grad);
+    -ms-transform: rotate(9grad);
+    -o-transform: rotate(9grad);
+}
+.wrapper__image--skate{
+    bottom: 3%;
+    left: 23%;
+}
+.wrapper__image--minsk{
+    top:4%;
+    left: 30%;
+    transform: rotate(7grad);
+    -webkit-transform: rotate(7grad);
+    -moz-transform: rotate(7grad);
+    -ms-transform: rotate(7grad);
+    -o-transform: rotate(7grad);
+}
+.wrapper__image--avenue{
+    top: 2%;
+    left: 24%;
+    z-index: 2;
+    transform: rotate(-3grad);
+    -webkit-transform: rotate(-3grad);
+    -moz-transform: rotate(-3grad);
+    -ms-transform: rotate(-3grad);
+    -o-transform: rotate(-3grad);
+}
+.wrapper__image--ivye{
+    bottom: 1%;
+    left: 1%;
+}
+.wrapper__image--pinsk-lake{
+    bottom: 13%;
+    right: 35%;
+    transform: rotate(6grad);
+    -webkit-transform: rotate(6grad);
+    -moz-transform: rotate(6grad);
+    -ms-transform: rotate(6grad);
+    -o-transform: rotate(6grad);
+}
+.wrapper__image--pinsk{
+    bottom: 17%;
+    left: 20%;
+    transform: rotate(-5grad);
+    -webkit-transform: rotate(-5grad);
+    -moz-transform: rotate(-5grad);
+    -ms-transform: rotate(-5grad);
+    -o-transform: rotate(-5grad);
+}
+.wrapper__image--grodno{
+    bottom: 21%;
+    right: 24%;
+}
+.wrapper__image--library{
+    bottom: 10%;
+    right: 3%;
+    transform: rotate(10grad);
+    -webkit-transform: rotate(10grad);
+    -moz-transform: rotate(10grad);
+    -ms-transform: rotate(10grad);
+    -o-transform: rotate(10grad);
+}
+.wrapper__image:hover{
+    transition: 0.6s;
+    width: 55vh;
+    z-index: 99999999;
+    transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+}
+.wrapper__image--countryside:hover{
+    width: 70vh;
+}
